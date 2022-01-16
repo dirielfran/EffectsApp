@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'http-effects';
+
+  isExpanding = false;
+  toggleSideBar() {
+    console.log('togle', this.isExpanding);
+    this.isExpanding = !this.isExpanding;
+    console.log('togle', this.isExpanding);
+  }
 }

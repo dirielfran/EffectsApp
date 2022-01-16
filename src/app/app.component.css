@@ -1,0 +1,16 @@
+.iz{
+  width: 0;
+  height: 100vh;
+  background: #ff8000;
+  float: right;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+aside.expanding {
+  width: 75%;
+}
+
+.buttonIz{
+  float: right;
+}

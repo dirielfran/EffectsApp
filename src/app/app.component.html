@@ -1,4 +1,8 @@
 <app-navbar></app-navbar>
-<div class="container p-3">
-  <router-outlet></router-outlet>
-</div>
+<aside class="iz" [ngClass]="{'expanding': isExpanding}"></aside>
+<p-button type="text" (click)="toggleSideBar()" ngClass="buttonIz" icon="pi pi-plus" label="Show"></p-button>
+<section class="container">
+  <div class="main-body">
+    <router-outlet></router-outlet>
+  </div>
+</section>
